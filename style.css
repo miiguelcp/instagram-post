@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    width: 450px;
+    height: 590px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.instagram-post{
+    background-color: white;
+}
+.parte-superior{
+    display: flex;
+    flex-direction: row;
+}
+.superior-izquierdo{
+    background-color: white;
+    width: 50%;
+    display: flex;
+}
+.superior-izquierdo img{
+    width: 50px;
+    height: 50px;
+    padding: .5rem .5rem;
+}
+.superior-derecho{
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+}
+.superior-derecho img{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+.parte-imagen img{
+    width: 450px;
+    height: 352px;
+}
+.iconos{
+    display: flex;
+}
+.iconos-izquierdos{
+    margin: 0;
+    padding: 0;
+    background: white;
+    width: 50%;
+}
+.iconos-izquierdos img{
+    width: 150px;
+    height: 50px;
+}
+.iconos-derechos{
+    background: white;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.iconos-derechos img{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+.parte-inferior p{
+    padding-left: 1rem;
+}
+.titulos{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
